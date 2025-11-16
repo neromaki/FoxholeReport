@@ -1,9 +1,8 @@
 {
-  "name": "logiwaze",
+  "name": "Foxhole Report",
   "version": "1.0.0",
-  "description": "Foxhole Map Router",
-  "repository": "https://github.com/NoUDerp/logiwaze",
-  "homepage": "https://www.logiwaze.com/",
+  "description": "Foxhole Report",
+  "repository": "https://github.com/neromaki/FoxholeReport",
   "directories": {},
   "scripts": {
     "clean": "rimraf .parcel-cache index.html Tiles",

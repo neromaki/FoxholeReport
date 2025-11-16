@@ -1,6 +1,6 @@
 {
-  "short_name": "LogiWaze",
-  "name": "LogiWaze Foxhole Routes",
+  "short_name": "Foxhole Report",
+  "name": "Foxhole Report",
   "icons": [
     {
       "src": "/favicon.svg",
@@ -15,14 +15,14 @@
   "theme_color": "#3367D6",
   "shortcuts": [
     {
-      "name": "LogiWaze",
-      "short_name": "LogiWaze",
-      "description": "LogiWaze Foxhole Routes",
+      "name": "Foxhole Report",
+      "short_name": "Foxhole Report",
+      "description": "Foxhole Report",
       "url": "/",
       "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
       }
   ],
-  "description": "LogiWaze Foxhole Routes",
+  "description": "Foxhole Report",
   "screenshots": [
     {
       "src": "/screenshot.png",

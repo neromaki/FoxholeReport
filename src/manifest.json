@@ -1,11 +1,11 @@
 {
-  "name": "LogiWaze",
-  "short_name": "LogiWaze",
+  "name": "Foxhole Report",
+  "short_name": "Foxhole Report",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#000",
   "theme_color": "#ccc",
-  "description": "Foxhole Logistic Routing",
+  "description": "Foxhole Report",
   "orientation": "any",
   "prefer_related_applications": false,
   "icons": [

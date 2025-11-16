@@ -302,36 +302,16 @@ update_error_loop: {
 
                 this._section = L.DomUtil.create('div', 'credits', container);
                 this._section.innerHTML =
-                    '<h2 style="text-align: center">LogiWaze</h2>' +
+                    '<h2 style="text-align: center">Foxhole Report</h2>' +
                     '<h3><p>All media resources from the game "Foxhole" are owned by Siege Camp</p><p><a target="_blank" href="https://www.foxholegame.com">www.foxholegame.com</a></p><p>This content is unofficial</p></h3>' +
                     '<p>Map image thanks to Rust<br /><a target="_blank" href="https://rustard.itch.io/improved-map-mod">https://rustard.itch.io/improved-map-mod</a></p><hr>' +
-                    '<p>Source code:<br /><a target="_blank" href="https://github.com/NoUDerp/LogiWaze">https://github.com/NoUDerp/LogiWaze</a></p><hr>' +
-                    "<p><i>Special thanks to</i>:" +
-                    "<div>Afrowner</div>" +
-                    "<div>Antraxen</div>" +
-                    "<div>Bazlow</div>" +
-                    "<div>Cainsiderate</div>" +
-                    "<div>DragonZephyr</div>" +
-                    "<div>Fireblade</div>" +
-                    "<div>Hayden</div>" +
-                    "<div>Icanari</div>" +
-                    "<div>Inquisitor Silenus</div>" +
-                    "<div>Kastow</div>" +
-                    "<div>Malarthyn</div>" +
-                    "<div>Maybar</div>" +
-                    "<div>Rick</div>" +
-                    "<div>Rust</div>" +
-                    "<div>Seabass</div>" +
-                    "<div>Sentsu</div>" +
-                    "<div>Skaj</div>" +
-                    "<div>Steely Phil</div>" +
-                    "</p>";
+                    '<p>Forked from LogiWaze:<br /><a target="_blank" href="https://github.com/NoUDerp/LogiWaze">https://github.com/NoUDerp/LogiWaze</a></p><hr>';
 
                 const link = L.DomUtil.create('a', `logiwaze-logo credits-icon`, this._container);
                 link.href = '#';
                 link.title = "About";
                 link.role = "button";
-                link.innerHTML = "LW";
+                link.innerHTML = "FR";
                 link.setAttribute('role', 'button');
 
                 // makes this work on IE touch devices by stopping it from firing a mouseout event when the touch is released
@@ -449,20 +429,6 @@ update_error_loop: {
 
             ss.onclick = () => Router.screenshot();
             tt.onclick = () => Router.copy();
-
-
-            if (window.location.hostname.toUpperCase() == "WWW.LOGIWAZE.COM") {
-                let ttt = document.createElement("button");
-                ttt.className = "report-button";
-                download_icon = document.createElement("img");
-                download_icon.src = MapIcons.data_url("bug.svg");
-                download_icon.style.width = "20px";
-                download_icon.style.height = "20px";
-                ttt.appendChild(download_icon);
-                ttt.alt = "Report Error";
-                ttt.title = "Report Error";
-                tt.after(ttt);
-            }
         }
 
         for (let y of document.getElementsByClassName("leaflet-routing-add-waypoint")) {
