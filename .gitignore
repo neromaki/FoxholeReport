@@ -1,3 +1,11 @@
 node_modules/
 Roads.geojson
 /.parcel-cache/
+/MapStitcher
+map.png
+/RoadSimplifier
+/Tiler
+/Tiles
+Roads.json
+Roads.svg
+SimpleRoads.json
