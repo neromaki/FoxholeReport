@@ -1,0 +1,49 @@
+@use "variables" as *;
+
+.region-name {
+	color: $white;
+	font-family: $font-family_1;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-shadow: 0 0 4px #000, 0 0 4px #000, 0 0 4px #000, 0 0 4px #000;
+	white-space: nowrap;
+	span {
+		position: relative;
+		left: -50%;
+		top: -.75em;
+	}
+}
+.minor-town-label {
+	span {
+		text-shadow: 0 0 4px #000, 0 0 4px #000, 0 0 4px #000, 0 0 4px #000;
+		white-space: nowrap;
+		position: relative;
+		color: $off-white;;
+		left: -100%;
+	}
+}
+.town-label {
+	span {
+		text-shadow: 0 0 4px #000, 0 0 4px #000, 0 0 4px #000, 0 0 4px #000;
+		white-space: nowrap;
+		position: relative;
+		color: $white;
+		left: -50%;
+		top: -.75em;
+	}
+}
+
+
+.town-neutral {
+	text-transform: uppercase;
+	font-family: $font-family_1;
+}
+.town-colonial {
+	text-transform: uppercase;
+	font-family: $font-family_2;
+	font-family: $font-family_3;
+}
+.town-warden {
+	text-transform: uppercase;
+	font-family: $font-family_2;
+}

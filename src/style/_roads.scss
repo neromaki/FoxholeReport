@@ -1,0 +1,29 @@
+@use "variables" as *;
+
+/**
+* Roads
+*/
+.roadtier {
+	box-sizing: border-box;
+	border-radius: 3px;
+	line-height: 16px;
+	font-size: 10px;
+	background: #444;
+	height: 16px;
+	margin: 3px 0;
+	padding: 1px;
+	border: 1px solid #333;
+	div {
+		box-sizing: border-box;
+		border-radius: 3px;
+		display: inline-block;
+		height: 100%;
+		text-indent: 2px;
+		span {
+			position: relative;
+			top: -1px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+}

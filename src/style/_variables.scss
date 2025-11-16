@@ -1,0 +1,49 @@
+// Colors
+$white: #ffffff;
+$off-white: #f5f5f5;
+
+$black: #000000;
+$off-black: #222222;
+
+$grey-1: #bbbbbb;
+$grey-2: #888;
+$grey-3: #555;
+$grey-4: #424f60;
+
+$blue-1: #0078a8;
+
+$transparent: transparent;
+
+
+// Fonts
+$font-family_1: Italic;
+$font-family_2: Celtic;
+$font-family_3: Roman;
+$font-family_4: Renner;
+
+
+// Animations
+@keyframes fadeOutAnimation {
+	0% {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

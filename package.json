@@ -11,7 +11,9 @@
     "assets": "mkdirp dist/Tiles && ncp ./Tiles ./dist/Tiles",
     "workers": "parcel build --dist-dir workers src/PredictorWorker.ts && parcel build --dist-dir workers src/TileRenderWorker.ts",
     "build": "parcel build --dist-dir workers src/PredictorWorker.ts && parcel build --dist-dir workers src/TileRenderWorker.ts && parcel build --no-source-maps --dist-dir .",
-    "debug": "parcel"
+    "debug": "parcel",
+    "watch": "parcel watch src/index.html",
+    "build_sass": "parcel build src/style/style.scss"
   },
   "type": "module",
   "browserslist": "> 0.5%, last 2 versions, not dead",
@@ -25,6 +27,7 @@
     "@parcel/config-webextension": "^2.16.1",
     "@parcel/optimizer-blob-url": "^2.16.1",
     "@parcel/service-worker": "^2.16.1",
+    "@parcel/transformer-sass": "^2.16.1",
     "@sakitam-gis/kriging": "^0.1.0",
     "@swc/helpers": "^0.5.17",
     "@turf/distance": "^7.2.0",
