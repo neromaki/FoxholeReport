@@ -8,7 +8,7 @@ import Shards from '../config/shards.json';
 import MapIcons from './MapIcons';
 import Panel from './Panel';
 import BackgroundImage from 'data-url:../Background.webp';
-import ServiceWorkerContent from 'data-url:../workers/ServiceWorker.js';
+import ServiceWorkerContent from 'data-url:../ServiceWorker.js';
 
 
 let decodedContent;
